@@ -110,8 +110,6 @@
     <allow-navigation href="*" />
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
-        <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-            <application android:debuggable="true" />
-        </manifest>
+        <activity android:debuggable="true" />
     </config-file>
 </widget>
