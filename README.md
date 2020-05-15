@@ -1,3 +1,10 @@
+```
+Fork Notes: 
+
+- Edited to allow debugging the webview in Google Chrome inspector.
+- Updated package dependencies.
+```
+
 # PhoneGap Developer App [![Build Status][travis-ci-img]][travis-ci-url]
 
 > Available in an app store near you!
