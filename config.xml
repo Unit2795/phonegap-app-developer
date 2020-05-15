@@ -109,7 +109,7 @@
 
     <allow-navigation href="*" />
 
-    <config-file platform="android" parent="/manifest" mode="merge">
+    <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
         <application android:debuggable="true" />
     </config-file>
 </widget>
