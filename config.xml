@@ -64,9 +64,7 @@
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
         <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
         <resource-file src="google-services.json" target="app/google-services.json" />
-        <custom-config-file target="AndroidManifest.xml" parent="./" mode="add">
-            <application android:debuggable="true"/>
-        </custom-config-file>
+        <custom-preference name="android-manifest/application/@android:debuggable" value="true" />
     </platform>
 
     <engine name="android" spec="~6.4.0" />
